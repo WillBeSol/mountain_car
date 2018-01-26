@@ -4,15 +4,18 @@ OpenAi MountainCar
 
 ## Installation
 
-    $ pip install requirement.txt
+    $ cd mountain_car
+    $ python3 -m venv venv
+    $ source venv/bin/activate
+
+    (venv) $ pip install requirement.txt
     or
-    $ pip install tensorflow theano keras gym matplotlib h5py
+    (venv) $ pip install tensorflow theano keras gym matplotlib h5py
 
 
 
 ## Run
 
-    $ cd mountain_car
     $ python openai_example_mountaincar.py
 
 
