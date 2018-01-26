@@ -1,0 +1,11 @@
+tensorflow
+theano
+keras
+gym
+matplotlib
+h5py
+
+description
+EPISODES 만큼 반복 학습하면서, reward를 준다
+save_graph의 x축(EPISODES 수), y축(score)을 보면 EPISODES가 진행됨에 따라 score를 볼수 았다.
+이 예제는 episode가 10000이상 넘어가야 변화를 볼수있음
